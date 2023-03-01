@@ -18,6 +18,11 @@ slightly more documentation is at top of component file. it's pretty simple, jus
 
 demo coming... eventually...
 
+## possible improvements:
+- add a default overlay to click before site is accessible
+- more configurability for users who want some kind of custom integration, like clicks for dom elements that are not the canvas
+- probably should just remove listeners from canvas and put it on document.body, honestly. 
+
 sources:
 - https://webkit.org/blog/6784/new-video-policies-for-ios/
 - https://stackoverflow.com/questions/74145147/videos-do-not-autoplay-with-audio-after-user-gesture
